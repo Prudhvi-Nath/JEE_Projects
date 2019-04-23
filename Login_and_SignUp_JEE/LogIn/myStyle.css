@@ -1,0 +1,157 @@
+h1{
+    font-family: Georgia;
+    font-style: normal;
+    text-align: center;
+    color: yellow;
+}
+image{
+    border: 3px,solid yellow;
+    background-position: center;
+
+}
+.heading{
+    font-size:40px;
+    color:royalblue;
+    margin-bottom: 30px;
+}
+#ceo{
+
+    font-size:25px;
+    color:royalblue;
+    text-align: center;
+    font-family: "sans-serif";
+}
+#ceoname{
+    font-size:20px;
+    color:royalblue;
+    text-align: center;
+    font-family: "sans-serif";
+}
+.footing{
+    font-size:30px;
+    font-family: "sans-serif";
+    font-style: normal;
+    text-align: center;
+    color: orangered;
+}
+label{
+    margin-left:20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:yellow;
+}
+#check{
+
+    font-family: sans-serif;
+    font-size:20px;
+    margin-left:10px;
+    color: yellow;
+}
+input[type="checkbox"]{
+    margin-left:180px;
+    background-color: yellow;
+}
+input[type="text"]{
+
+    margin-top:20px;
+    border:4px solid black;
+    background-color:cyan;
+    border-radius:4px;
+    font-size:20px;
+    font-weight:bold;
+
+
+}
+input[type="text"]:hover{
+
+    background-color: coral;
+
+
+}
+input[type="password"]:hover{
+
+    background-color: coral;
+
+
+}
+input[type="submit"]:hover{
+
+    background-color: yellow;
+    color:red;
+    box-shadow: 0px 0px 25px black;
+
+
+}
+input[type="submit"]:active{
+    background-color: green;
+    color: cornflowerblue;
+    transform: scale(0.5,0.5);
+
+}
+input[type="password"]{
+    margin-left:10px;
+    margin-top:20px;
+    border:4px solid black;
+    background-color:cyan;
+    border-radius:4px;
+    font-size:20px;
+    font-weight:bold;
+
+
+}
+input[type='submit']{
+    margin-left:270px;
+    width:150px;
+    height:45px;
+    font-size:30px;
+    border-radius:5px;
+    border:3px solid black;
+    background-color:orangered;
+    color:yellow;
+    outline:none;
+}
+header{
+    background-color: lavender;
+    background-size: cover;
+    padding:10px;
+    font-size: 20px;
+    font-family: "Comic Sans MS",sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:10px;
+    text-align: center;
+    border-radius: 4px;
+}
+#demo{
+    margin-top:20px;
+    border:4px solid black;
+    border-radius:4px;
+    width:700px;
+    height:300px;
+    margin-left:400px;
+
+}
+footer{
+    background-color: lavender;
+    background-size: cover;
+    padding:10px;
+    font-size: 20px;
+    font-family: "Comic Sans MS",sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:90px;
+}
+
+#demo1{
+    margin-top:30px;
+    margin-left:10px;
+}
+body{
+    background-image:linear-gradient(royalblue,cyan,darkblue);
+}
+#transfer{
+margin-left:270px;	
+}

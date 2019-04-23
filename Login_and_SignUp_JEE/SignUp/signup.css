@@ -1,0 +1,154 @@
+
+label{
+    font-size:25px;
+    font-weight:bold;
+    font-family: "Microsoft JhengHei UI Light";
+}
+input[type="text"]{
+    width:300px;
+    border:4px solid black;
+    align-content: center;
+    background-color: cyan;
+    font-weight: bold;
+    font-size: 15px;
+    outline:none;
+}
+input[type="password"]{
+    width:300px;
+    border: 4px solid black;
+    border-radius:4px;
+    background-color: cyan;
+    font-weight: bold;
+    font-size:15px;
+    outline:none;
+
+}
+input[type="submit"]{
+    border:4px solid black;
+    color:yellow;
+    background-color: red;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 4px;
+    width:120px;
+    height:40px;
+    margin-left: 300px;
+
+}
+input[type="submit"]:hover{
+    background-color: yellow;
+    color: red;
+
+}
+input[type="submit"]:active{
+
+    transform: scale(0.7,0.7);
+}
+
+.spin
+{
+    width: 150px;
+    height: 150px;
+    background-image: url("coffee.jpg");
+    background-size: cover;
+    background-position: inherit;
+    border: 5px solid white;
+    border-radius: 50%;
+
+
+
+    margin-left: 80%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.spin1
+{
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+
+
+    border-top: 5px solid cornflowerblue;
+    border-bottom:5px solid red;
+    border-left:5px solid darkorange;
+    border-right: 5px solid teal;
+    margin-left: 79.3%;
+    margin-top: -210px;
+    padding: 30px;
+    animation: spin1 4s infinite linear;
+}
+@keyframes spin1 {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+
+}
+h1{
+
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    font-family: Centaur;
+    text-align: center;
+}
+h2{
+    font-size:25px;
+    font-weight: bold;
+    color:whitesmoke;
+    font-family: Centaur;
+    text-align: center;
+}
+h3{
+    font-size:25px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: Centaur;
+    text-align: center;
+}
+.blur{
+    background-size: cover;
+    overflow: visible;
+    filter: blur(1px);
+    position: fixed;
+    height: 300px;
+
+    background: url("coffee.jpg");
+
+}
+
+#sign{
+
+    border:4px solid black;
+    width:700px;
+    height: 300px;
+    margin-left: 400px;
+    padding-top:40px;
+    padding-bottom: 30px;
+    background-color: yellow;
+}
+.heading{
+    background-color: darkcyan;
+    font-size:30px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Centaur;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: dodgerblue;
+
+}
+body{
+    
+    background-image: url("code.jpg");
+    background-size: cover;
+    margin-bottom: -20px;
+
+}

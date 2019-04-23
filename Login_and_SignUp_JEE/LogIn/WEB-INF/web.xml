@@ -1,0 +1,31 @@
+<web-app>
+	<servlet>
+		<servlet-name>loginservlet</servlet-name>
+		<servlet-class>com.prudhvi.aj.LoginServlet</servlet-class>
+		
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginservlet</servlet-name>
+		<url-pattern>/loginservlet</url-pattern>
+		
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+	<filter>
+		<filter-name>loginfilter</filter-name>
+		<filter-class>com.prudhvi.aj.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginfilter</filter-name>
+		<url-pattern>/loginservlet</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>signuptag</servlet-name>
+		<servlet-class>com.prudhvi.aj.gosignin </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>signuptag</servlet-name>
+		<url-pattern>/gos</url-pattern>
+		</servlet-mapping>
+</web-app>
