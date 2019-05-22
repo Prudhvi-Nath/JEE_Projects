@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Dhanekula Offical Portal</title>
+
+</head>
+<body>
+
+<div id="head">
+    <img src="dhan.png" id="image" alt="cant load image">
+<header>
+
+    <h1>Dhanekula Institute Of Engineering and Technology</h1>
+    <h3>Affiliated by JNTU,Kakinada</h3>
+</header>
+</div>
+
+<a href="#" target="_parent" onclick="change()" name="down">Student Login</a>
+
+<a href="#" target="_parent" onclick="change1()" name="down">Teachers Login</a>
+
+<iframe id="myframe" style="height: 473px;width: 1520px;position:relative"></iframe>
+
+</body>
+</html>
+<script type="text/javascript">
+    function change() {
+        document.getElementById("myframe").src = "studentlogin.jsp";
+    }
+    function change1() {
+        document.getElementById("myframe").src = "teacherlogin.jsp";
+    }
+
+
+</script>

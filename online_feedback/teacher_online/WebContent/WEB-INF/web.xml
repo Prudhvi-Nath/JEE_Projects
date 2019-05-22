@@ -1,0 +1,32 @@
+<web-app>
+	<context-param>
+    	<param-name>first</param-name>
+    	<param-value>DHAN1</param-value>
+</context-param>
+
+	<context-param>
+    	<param-name>second</param-name>
+    	<param-value>DHAN2</param-value>
+</context-param>
+
+
+	<context-param>
+    	<param-name>third</param-name>
+    	<param-value>DHAN3</param-value>
+</context-param>
+	
+	<context-param>
+    	<param-name>fourth</param-name>
+    	<param-value>DHAN4</param-value>
+</context-param>
+
+	<context-param>
+    	<param-name>fifth</param-name>
+    	<param-value>DHAN5</param-value>
+</context-param>
+	<welcome-file-list>
+		<welcome-file>OfficialPortal.html</welcome-file>
+	</welcome-file-list>
+	
+
+</web-app>
