@@ -1,6 +1,7 @@
 package com.prudhvi.aj;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -204,12 +205,21 @@ public class teacherlogin extends HttpServlet implements Serializable {
 					sc.setAttribute("obj2",this.getObject2());
 					sc.setAttribute("obj3",this.getObject3());
 					sc.setAttribute("pass",this.getPassword());
+					PrintWriter out=response.getWriter();
 					if(sid.equals(rs.getString(2))) {
 						if(pass.equals(rs.getString(10))) {
 					/*		RequestDispatcher rd=request.getRequestDispatcher("/s");
 							rd.forward(request, response);*/
 							response.sendRedirect("http://localhost:9005/teacher_online/teacherprofile.jsp");
 						}
+						else {
+							
+							out.println("<body><script>alert('password mismatch')</script></body>");
+						}
+					}
+					else if((sid.equals(rs.getString(2)))!=true) {
+						out.println("<body><p>userid invalid</p></body>");
+						
 					}
 				}
 				
