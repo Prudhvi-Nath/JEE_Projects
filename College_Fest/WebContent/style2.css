@@ -1,0 +1,176 @@
+.tophead{
+    border:5px solid goldenrod;
+    border-radius: 9px;
+}
+
+
+header{
+
+    text-align: center;
+    font-family: "Century Gothic";
+    color:white;
+    font-size: 40px;
+    border: 5px solid lightslategrey;
+    background-color: #374566;
+    border-radius: 4px;
+    padding:20px;
+}
+
+#action a{
+    text-align: center;
+    text-space: 20px;
+    text-decoration: none;
+    outline: none;
+    background-color:firebrick;
+    color: whitesmoke;
+    font-style: normal;
+    font-family: Cambria;
+    padding:13px;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-left:5px;
+    font-size: 20px;
+
+    border: 1.5px solid black;
+    border-spacing: 2px;
+    border-radius: 3px;
+
+
+    overflow: hidden;
+
+}
+#action a:hover{
+    background-color: red;
+    color: yellow;
+}
+#action #optiontag1{
+    background-color: darkred;
+    color:yellow ;
+}
+#action #optiontag2{
+    background-color: darkred;
+    color:yellow ;
+}
+::placeholder {
+
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+input[type="text"],input[type="password"]  {
+    text-align: center;
+    padding:15px;
+    border:2px solid black;
+    width: 250px;
+    height: 10px;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 30px;
+
+}
+input[type="submit"]{
+    text-align: center;
+    margin-left: 670px;
+    border: 3px solid royalblue;
+    background-color: white;
+    color:black;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    font-family: "Berlin Sans FB";
+}
+input[type="submit"]:hover{
+    background-color: royalblue;
+    color: white;
+}
+footer{
+
+    margin-top: 100px;
+}
+img{
+    float: left;
+    padding: 10px;
+    margin-left:90px;
+    height: 120px;
+    width: 170px;
+
+}
+
+h2{
+
+    display: inline-block;
+    margin-left: 160px;
+}
+.logout{
+    border: 4px solid darkgrey;
+    border-radius: 100%;
+    background-color:white;
+    color: darkred;
+    font-family: "Cooper Black";
+    font-size: medium;
+    outline: none;
+
+}
+.logout:hover{
+    background-color: darkred;
+    color: blue;
+}
+.logout:active{
+    background-color: darkred;
+    color: yellow;
+    box-shadow: 0 5px #666;
+
+    cursor: progress;
+    transform: translateY(6px);
+}
+#orgstaff{
+    text-align: center;
+    padding:20px;
+    border:2px solid black;
+    border-radius:15px;
+    width: 300px;
+    font-size: 20px;
+    margin-left:40%;
+    font-family: "Josefin Sans";
+    outline: none;
+}
+#orgstaffdept{
+    text-align: center;
+    padding:20px;
+    border:2px solid black;
+    border-radius:15px;
+    width: 280px;
+    height: 60px;
+    font-size: 15px;
+    margin-left:40%;
+    font-family: "Josefin Sans";
+
+    outline: none;
+    margin-left: 600px;
+    margin-top: 30px;
+
+}
+#orgstaffevent{
+    text-align: center;
+    padding:20px;
+    border:2px solid black;
+    border-radius:15px;
+    width: 280px;
+    height: 60px;
+    font-size: 15px;
+    margin-left:40%;
+    font-family: "Josefin Sans";
+
+    outline: none;
+    margin-left: 600px;
+    margin-top: 30px;
+
+}
+@media screen and (max-width:7009px) {
+    #action {
+        width: 101%;
+    }
+}
